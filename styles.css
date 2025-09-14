@@ -1,1 +1,81 @@
-/*  your css code here. If applicable */
+body {
+	background-color: whitesmoke;
+	display: flex;
+}
+
+.container {
+	background-color: white;
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 8px gray; 
+	border-radius: 5px;
+}
+
+input{
+	margin: 10px;
+	width: 200px
+}
+
+.text{
+	padding: 8px;
+	border-radius: 5px;
+	border: 0.5px solid gray;
+}
+
+.loginbtn{
+	width: 215px;
+	cursor: pointer;
+	border: none;
+	padding: 5px;
+	background-color: #1A77F2;
+	color: white;
+	border-radius: 5px;
+}
+
+.loginbtn:hover{
+	opacity: 0.8;
+}
+
+a{
+	color: #1C78F2;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.createbtn{
+	border: none;
+	background-color: #43B72A;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+	width: 150px;
+	margin-left: 50px;
+	margin-top: -10px;
+}
+
+.createbtn:hover{
+	opacity: 0.8;
+}
+
+.heading {
+	margin: 8px;
+	margin-top: 50px;
+}
+
+.heading h1 {
+	color: #1A77F2;
+	margin-left: 30px;
+}
+
+.heading p{
+	margin-left: 30px;
+	margin-top: -10px;
+	font-weight: bold;
+}
+
